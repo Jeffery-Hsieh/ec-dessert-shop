@@ -1,0 +1,29 @@
+.link {
+  color: #606c38;
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    color: #606c38;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+
+  &--enText {
+    font-size: 1em;
+  }
+
+  &--zhText {
+    color: #606c38;
+    display: block;
+    margin: 0 20px;
+    font-size: 1.5em;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

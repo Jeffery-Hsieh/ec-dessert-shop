@@ -1,0 +1,62 @@
+[
+    {  
+       "currencyFormat":"$",
+       "currencyId":"NTD",
+       "description":"4 MSL",
+       "id":1,
+       "installments":9,
+       "available":false,
+       "price":10.9,
+       "sku":"045205fb-389e-422c-bc18-bedee3d47ca5",
+       "style":"Black with custom print",
+       "title":"杏仁雪球"
+    },
+    {  
+       "currencyFormat":"$",
+       "currencyId":"NTD",
+       "description":"",
+       "id":2,
+       "installments":5,
+       "available":true,
+       "price":29.45,
+       "sku":"bc198c79-0d50-4bb3-8f6f-2dafd427affe",
+       "style":"Front print and paisley print",
+       "title":"伯爵餅乾"
+    },
+    {  
+       "currencyFormat":"$",
+       "currencyId":"NTD",
+       "description":"GPX Poly 1",
+       "id":3,
+       "installments":3,
+       "available":true,
+       "price":9,
+       "sku":"27fa2ee5-775c-4a7a-b8cf-afb26ae51275",
+       "style":"Front tie dye print",
+       "title":"巧克力雪球"
+    },
+    {
+     "currencyFormat":"$",
+     "currencyId":"NTD",
+     "description":"",
+     "id":4,
+     "installments":5,
+     "available":true,
+     "price":10,
+     "sku":"5b552cb5-8b2b-44eb-af5d-86cb31de15e6",
+     "style":"Front tie dye print",
+     "title":"巧克力豆餅乾"
+   },
+   {
+     "currencyFormat":"$",
+     "currencyId":"NTD",
+     "description":"",
+     "id":4,
+     "installments":2,
+     "available":false,
+     "price":10,
+     "sku":"270a2141-0f24-4598-be01-d3805e07e095",
+     "style":"Front tie dye print",
+     "title":"馬林糖"
+   }
+]

@@ -1,0 +1,32 @@
+$font-stack: "Comic Sans MS", cursive, sans-serif;
+$bg-color: white;
+
+.navigator {
+  background-color: #fefae0;
+  text-align: center;
+  height: 100%;
+
+  &__logo {
+    width: 70%;
+    margin: 30px 0 50px 0;
+  }
+
+  &__link {
+    height: 70%;
+    font-family: $font-stack;
+    text-align: center;
+    color: #606c38;
+
+    &--disabled {
+      opacity: 0.3;
+    }
+  }
+
+  &__fanPageLink {
+    &--text {
+      font-size: 2em;
+      display: block;
+      color: green;
+    }
+  }
+}

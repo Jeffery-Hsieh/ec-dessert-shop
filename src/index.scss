@@ -1,0 +1,21 @@
+@import "_reset.scss";
+
+body {
+    font-family: "Roboto",sans-serif;
+}
+
+button {
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    padding: 10px 35px;
+    font-size: 14px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: inherit;
+}

@@ -1,0 +1,72 @@
+$banner-image-width: 1440px;
+$banner-image-height: 680px;
+
+.banner {
+    animation: fadein 2s ease-out;
+    background-image: url("../../Assets/banner.jpg");
+    background-size: cover;
+    height: $banner-image-height / $banner-image-width * 100vw;
+
+    &__content {
+        width: 30%;
+        margin-left: 10%;
+
+        &--title {
+            font-family: "Roboto",sans-serif;
+            font-weight: 600;
+            font-size: 2.4em;
+            text-align: center;
+            position: relative;
+
+            &:after {
+                content: "";
+                text-align:center;
+                margin: 10px 0;
+                border-radius: 2px;
+                border-bottom: solid 4px #333333;
+                display: block;
+                margin-left: 37.5%;
+                width: 25%;
+                opacity: 0.5;
+            }
+        }
+        
+        &--text {
+            text-align: center;
+            color:#6A321D;
+        }
+    
+    }
+}
+
+@keyframes fadein {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+
+    &__btn {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 0px;
+        padding: 10px 35px;
+        font-size: 14px;
+    }
+}
+
+.about {
+    position: relative;
+    height: 50vh;
+}
+
+.chef {
+    height: 50vh;
+}

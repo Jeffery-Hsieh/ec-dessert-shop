@@ -1,0 +1,11 @@
+.sideBar {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 13%;
+    height: 100%;
+}
+
+.main {
+    margin-left: 13%;
+}
